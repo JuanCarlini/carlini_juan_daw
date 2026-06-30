@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima Actual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="card">
+    <h1>Consultar Clima</h1>
+
+    <div class="input-group">
+      <input type="text" id="ciudad" placeholder="Ingresá una ciudad...">
+      <button id="btnClima">Consultar</button>
+    </div>
+
+    <p id="estado"></p>
+
+    <div id="resultado" class="resultado oculto">
+      <h2 id="nombreCiudad"></h2>
+      <p>Temperatura: <span id="temp"></span> °C</p>
+      <p>Viento: <span id="viento"></span> km/h</p>
+      <p>Código de clima: <span id="codigo"></span></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
